@@ -1,0 +1,109 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    height: 58px;
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom: 1px solid rgb(200, 200, 200);
+    z-index: 100;
+}
+.left-header{
+    display: flex;
+    width: 150px;
+    align-items: center;
+} 
+.ham-menu{
+    height: 25px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+.youtube-logo{
+    height: 20px;
+}
+.middle-header{
+    flex: 1;
+    margin-left: 70px;
+    margin-right: 35px;
+    max-width: 500px;
+    display: flex; 
+    align-items: center;
+}
+.search-bar{
+    height: 36px;
+    width: 0;
+    flex: 1;
+    padding-left: 10px;
+    font-size: 16px;
+    border: 1px solid rgb(200, 200, 200);
+    box-shadow: inset 1px 2px 3px rgba(0, 0, 0,0.05);
+    border-radius: 2px;
+}
+.search-bar::placeholder{
+    font-family: Roboto,arial;
+    font-size: 16px;
+}
+.search-btn{
+    width: 67px;
+    height: 40px;
+    background-color: rgb(243, 243, 243);
+    border: 1px solid rgb(200, 200, 200);
+    margin-left: -1px;
+}
+.search-icon{
+    height: 25px;
+    margin-top: 6px;
+}
+.voice-search-btn{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-left: 8px;
+    border: none;
+    background-color: rgb(243, 243, 243);
+}
+.voice-search-icon{
+    margin-top: 3px;
+    height: 24px;
+}
+.right-header{
+    width: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 20px;
+    flex-shrink: 0;
+}
+.upload-logo{
+    height: 26px;
+}
+.apps-logo{
+    height: 26px;
+}
+.notifications-logo{
+    height: 26px;
+}
+.notifications-container{
+    position: relative;
+}
+.notifications-count{
+    position: absolute;
+    top: -2px;
+    right: -3px;
+    color: white;
+    background-color: rgb(177, 0, 0);
+    padding: 2px 5px;
+    font-family: Roboto,arial;
+    font-size: 10px;
+    border-radius: 10px;
+}
+.profile-logo{
+    height: 30px;
+    width: 30px;
+    border-radius: 15px;
+    object-fit: cover;
+}
